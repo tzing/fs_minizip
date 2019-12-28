@@ -1,6 +1,6 @@
 # fs.minizip
 
-fs.minizip is a project to warp [pyminizip] for python [filesystem].
+fs.minizip is a project to wrap [pyminizip] for python [filesystem].
 
 The original python filesystem project does not deal with password protected
 zip file since current Python does not support.
@@ -31,7 +31,7 @@ Would provides pip install link after stable.
 For the current version, use [poetry]:
 
 ```bash
-poetry add gti+https://github.com/tzing/fs_minizip.git
+poetry add git+https://github.com/tzing/fs_minizip.git
 ```
 
 [poetry]: https://github.com/python-poetry/poetry
